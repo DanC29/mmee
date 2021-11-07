@@ -1,0 +1,280 @@
+@media (min-width: 320px) {
+  /* Home Page Start*/
+  /* .hero-sec {
+    height: 75vh;
+    background-image: url("imgs/p1110998.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .hero-cont {
+    height: 100%;
+    background: #01203db9;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .hero-text-row {
+    justify-content: center;
+    color: #ffffff;
+  }
+  .hero-text h5 {
+    margin-top: 1rem;
+  } */
+  .header-background {
+    height: 75vh;
+    background-image: url("imgs/header-blue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .header-text {
+    color: #ffffff;
+  }
+  .navbar {
+    background-color: #01203d;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .nav-link {
+    color: #ffffff;
+  }
+  .nav-link:hover {
+    color: #ffffff;
+  }
+  .active {
+    color: #48f2ca;
+  }
+  .active:hover {
+    color: #48f2ca;
+  }
+  .home-intro {
+    color: #01203d;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .goal-cards {
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+  }
+  .card-header {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01203d;
+    color: #ffffff;
+  }
+  .btn-primary {
+    background-color: #ffffff;
+    border: 2px solid #01203d;
+    box-shadow: none;
+    color: #01203d;
+    transition: all 0.2s ease-in-out;
+  }
+  .btn-primary:hover {
+    background-color: #48f2ca !important;
+    fill: none;
+    border: 2px solid #48f2ca;
+    box-shadow: none;
+    color: #01203d;
+    outline: none !important;
+  }
+  .btn-primary:focus,
+  .btn-primary:active {
+    background-color: #48f2ca !important;
+    fill: none;
+    border: 2px solid #48f2ca;
+    box-shadow: none !important;
+    color: #01203d;
+    outline: none !important;
+  }
+  .modal {
+    border: none;
+  }
+  .modal-header {
+    background-color: #01203d;
+    color: #ffffff;
+    border: none;
+  }
+  .btn-close {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(12deg)
+      brightness(104%) contrast(102%);
+    opacity: 100%;
+  }
+  .modal-footer {
+    background-color: #01203d;
+    color: #ffffff;
+    border: none;
+  }
+  .btn-secondary {
+    background-color: #01203d;
+    border: 2px solid #ffffff;
+  }
+  .btn-secondary:hover {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    color: #01203d;
+  }
+  .socials {
+    background-color: #01203d;
+    color: #ffffff;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .social-icon-cont {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .social-icons {
+    transition: all 0.2s ease-in-out;
+    margin: 0.5rem;
+  }
+  .social-icons:hover {
+    transform: scale(1.05);
+  }
+  .sign-up {
+    background-color: #48f2ca;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .sign-up h1 {
+    color: #01203d;
+  }
+  .sign-up h4 {
+    color: #01203d;
+  }
+  .sign-up-now {
+    border: 2px solid #01203d;
+    border-radius: 5px;
+    background-color: #01203d;
+    color: #ffffff;
+    margin-top: 1rem;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.2s ease-in-out;
+  }
+  .sign-up-now:hover {
+    transform: scale(1.25);
+  }
+  .annual-report {
+    background-color: #01203d;
+    color: #ffffff;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+  .annual-report-cards {
+    border: 2px solid #01203d;
+    border-radius: 5px;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  .annual-report-cards > .annual-card-header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #48f2ca;
+    color: #01203d;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .annual-card-title {
+    padding: 16px;
+  }
+  .annual-card-body {
+    padding: 12px;
+    background-color: #ffffff;
+  }
+  .annual-report-cards button {
+    background-color: #ffffff;
+    border: 2px solid #01203d;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #01203d;
+    transition: all 0.2s ease-in-out;
+  }
+  .annual-report-cards button:hover {
+    background-color: #48f2ca !important;
+    fill: none;
+    border: 2px solid #48f2ca;
+    box-shadow: none;
+    color: #01203d;
+    outline: none !important;
+  }
+  /* Home Page End*/
+  /* Application Page Start*/
+  .apply-sec {
+    height: 100%;
+    background-color: #01203d;
+    color: #ffffff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .sign-up-icon-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Application Page End*/
+}
+@media (min-width: 768px) {
+  /* Home Page Start */
+  .social-icon-cont {
+    flex-direction: row;
+    align-items: center;
+  }
+  /* Home Page End */
+
+  /* Application Page Start*/
+  .apply-sec {
+    height: 100vh;
+  }
+  .sign-up-icon-cont {
+    flex-direction: row;
+    align-items: center;
+  }
+  /* Application Page End*/
+}
+@media (min-width: 992px) {
+  /* .hero-cont {
+    overflow-x: hidden;
+  }
+  .hero-text-row {
+    justify-content: center;
+  } */
+  .goal-cards {
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .goal-cards:hover {
+    transform: scale(1.05);
+  }
+  .goal-cards:hover > .card-header {
+    background-color: #48f2ca;
+    color: #01203d;
+  }
+  .card-header {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01203d;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+  }
+  /* Application Page Start*/
+
+  /* Application Page End*/
+}
+@media (min-width: 1200px) {
+}
