@@ -224,6 +224,26 @@
     align-items: center;
   }
   /* Application Page End*/
+  /* Blog Page Start*/
+  .tw-tl {
+    background-color: #48f2ca;
+    color: #01203d;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .tw-tl h2 {
+    font-size: 25px;
+  }
+  .fb-tl {
+    background-color: #01203d;
+    color: #ffffff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .fb-tl h2 {
+    font-size: 25px;
+  }
+  /* Blog Page End*/
 }
 @media (min-width: 768px) {
   /* Home Page Start */
@@ -242,6 +262,21 @@
     align-items: center;
   }
   /* Application Page End*/
+  /* Blog Page Start*/
+  .tw-tl {
+    padding: 5rem;
+  }
+  .tw-tl h2 {
+    font-size: 35px;
+  }
+
+  .fb-tl {
+    padding: 5rem;
+  }
+  .fb-tl h2 {
+    font-size: 35px;
+  }
+  /* Blog Page End*/
 }
 @media (min-width: 992px) {
   /* .hero-cont {
