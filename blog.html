@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MMEE Home</title>
+    <title>MMEE Blog</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -27,7 +27,11 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="imgs/icons/mmee-green.png" alt="MMEE Logo" width="75" />
+            <img
+              src="imgs/icons/logo-white.png"
+              alt="MMEE Logo"
+              id="nav-logo"
+            />
           </a>
           <button
             class="navbar-toggler navbar-dark"
@@ -51,9 +55,6 @@
                 <a class="nav-link active" href="blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="research.html">Research</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link disabled" href="about.html">About</a>
               </li>
             </ul>
@@ -62,6 +63,117 @@
       </nav>
     </header>
     <main>
+      <section class="blog-header-background">
+        <div class="container">
+          <div class="row h-100 justify-content-center">
+            <div class="col-md-8 blog-header-text">
+              <h1>Welcome To The MMEE Blog</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container recent-posts-cont">
+          <div class="row">
+            <div class="col">
+              <h2>Recent Posts</h2>
+            </div>
+          </div>
+          <div class="row d-flex">
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <img
+                    src="imgs/Sylvia-Chan-Olmsted.jpg"
+                    class="card-img-top"
+                    alt="Dr. Sylvia Chan"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Dr. Sylvia Chan-Olmsted Highlight - Current Research
+                  </h5>
+                  <p class="card-text">
+                    Dr. Sylvia Chan-Olmsted is the Director of Media Consumer
+                    Research at the University of Florida. Her research
+                    expertise includes digital/mobile media consumption,
+                    branding, and strategic management in emerging media/
+                    communications industries.
+                  </p>
+                </div>
+                <div class="card-footer recent-footer">
+                  <a
+                    class="btn btn-primary mt-auto"
+                    target="blank"
+                    href="https://youtu.be/V-mHBBtrCgY"
+                    >Watch Video</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img
+                  src="imgs/Robert_G_Picard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Robert Picard Highlight - Joining MMEE
+                  </h5>
+                  <p class="card-text">
+                    Professor Robert G. Picard is a senior research fellow at
+                    the Reuters Institute at University of Oxford, a fellow of
+                    the Royal Society of Arts, and a fellow at the Information
+                    Society Project at Yale University Law School. His
+                    scholarship focuses on the nexus between economic of media
+                    and communications systems and public policy. He is one of
+                    the co-founders of the MMEE division.
+                  </p>
+                </div>
+                <div class="card-footer recent-footer">
+                  <a
+                    class="btn btn-primary btn-block mt-auto"
+                    target="blank"
+                    href="https://youtu.be/uxb1I79LS4k"
+                    >Watch Video</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="imgs/p1110998.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    AEJMC MIDWINTER CONFERENCE AT THE UNIVERSITY OF OKLAHOMA
+                  </h5>
+                  <p class="lead">March 4-5, 2022</p>
+                  <p class="card-text">
+                    The AEJMC Midwinter Conference is an annual forum for the
+                    presentation of research and debate in areas relevant to the
+                    AEJMC groups sponsoring the event. Papers submitted to the
+                    midwinter conference can be resubmitted to AEJMC’s national
+                    convention.
+                  </p>
+                </div>
+                <div class="card-footer recent-footer">
+                  <a
+                    class="btn btn-primary mt-auto btn-block"
+                    target="blank"
+                    href="https://youtu.be/uxb1I79LS4k"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="tw-tl">
         <div class="container">
           <div class="row">
@@ -82,39 +194,6 @@
           </div>
         </div>
       </section>
-      <!--    <section class="tw-tl">
-        <div class="row content-row">
-            <div class="col-md-6">
-              <h2>MMEE Twitter Posts</h2>
-              <p class="lead">Find job postings, articles, and more!</p>
-              <a
-                href="http://www.facebook.com/AEJMCMMEE"
-                target="blank"
-                class="social-icons"
-              >
-                <img
-                  src="imgs/icons/twitter-blue.png"
-                  alt="Facebook Logo"
-                  width="100"
-                  class="twitter-tl-link"
-                />
-              </a>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <a
-                  class="twitter-timeline"
-                  data-width="500"
-                  data-height="500"
-                  data-theme="light"
-                  href="https://twitter.com/AEJMCMMEE?ref_src=twsrc%5Etfw"
-                  >Tweets by AEJMCMMEE</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
       <section class="fb-tl">
         <div class="container">
           <div class="row">
@@ -145,7 +224,64 @@
           </div>
         </div>
       </section>
+      <!--  <div class="wrap-2">
+        <canvas id="liquid"></canvas>
+        <div id="tl-cont">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h2>MMEE Twitter Posts</h2>
+                <p class="lead">Find job postings, articles, and more!</p>
+              </div>
+              <div class="col-md-5">
+                <a
+                  class="twitter-timeline"
+                  data-width="500"
+                  data-height="400"
+                  data-theme="light"
+                  href="https://twitter.com/AEJMCMMEE?ref_src=twsrc%5Etfw"
+                  >Tweets by AEJMCMMEE</a
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <h2>MMEE Facebook Posts</h2>
+                <p class="lead">Find job postings, announcements, and more!</p>
+              </div>
+              <div class="col-md-5">
+                <div
+                  class="fb-page"
+                  data-href="https://www.facebook.com/AEJMCMMEE"
+                  data-tabs="timeline"
+                  data-width="500"
+                  data-height="500"
+                  data-small-header="false"
+                  data-adapt-container-width="true"
+                  data-hide-cover="true"
+                  data-show-facepile="fasle"
+                >
+                  <blockquote
+                    cite="https://www.facebook.com/AEJMCMMEE"
+                    class="fb-xfbml-parse-ignore"
+                  >
+                    <a href="https://www.facebook.com/AEJMCMMEE">AEJMC MMEE</a>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </main>
+    <footer>
+      <h5>DMD 3102 001</h5>
+      <h6>Brand Lab Final Project</h6>
+      <p>Dan Collette, Joseph Rivera, Kyle Alswanger Busch</p>
+    </footer>
+
+    <script src="scripts/blog.js"></script>
+
     <script
       async
       src="https://platform.twitter.com/widgets.js"
