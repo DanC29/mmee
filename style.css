@@ -7,7 +7,7 @@ footer {
 @media (min-width: 320px) {
   /* Home Page Start*/
   .header-background {
-    height: 50vh;
+    height: 35vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -232,7 +232,7 @@ footer {
   /* Application Page End*/
   /* Blog Page Start*/
   .blog-header-background {
-    height: 45vh;
+    height: 35vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -262,17 +262,17 @@ footer {
     font-weight: 500;
   }
   .recent-posts-cont {
-    padding: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     color: #01203d;
+  }
+  .card-cont {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .card-img-top {
     width: 100%;
-    height: 20vw;
     object-fit: cover;
-    mix-blend-mode: overlay;
-  }
-  #recents-filter {
-    background-color: #0f5aa0;
   }
   .recent-footer {
     background-color: #ffffff;
@@ -365,7 +365,12 @@ footer {
     height: 100%;
     position: absolute;
   }
-
+  .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+  }
   #tl-cont {
     z-index: 2;
     position: relative;
